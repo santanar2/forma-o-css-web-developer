@@ -1,0 +1,12 @@
+code {
+    background-color: lightgreen;
+}
+
+p::first-letter {
+    color: red;
+}
+
+p::first-line {
+    color: blue;
+    background: lightblue;
+}

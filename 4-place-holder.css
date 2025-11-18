@@ -1,0 +1,12 @@
+code {
+    background-color: lightgrey;
+}
+
+input::placeholder {
+    color: lightcoral;
+    text-transform: uppercase;
+}
+
+input {
+    color: red;
+}

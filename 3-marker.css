@@ -1,0 +1,13 @@
+code {
+    background-color:  lightgrey;
+}
+
+summary::marker {
+content: "► ";
+color: rgb(240, 97, 9);
+}
+
+li::marker {
+    color: rgb(21, 9, 241);
+    content: "*";
+}
