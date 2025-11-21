@@ -1,0 +1,9 @@
+input:placeholder-shown {
+    border-color: royalblue;
+    background-color: greenyellow;
+
+}
+
+input::placeholder {
+    color: white;
+}
