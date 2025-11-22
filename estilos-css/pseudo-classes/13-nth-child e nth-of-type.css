@@ -1,0 +1,62 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input[type="checkbox"]:checked + label {
+    text-decoration: line-through;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    text-align: left;
+}
+
+th, td {
+    padding: 1rem;
+}
+
+td + td,
+th + th {
+    text-align: right;
+}
+
+
+article p:nth-child(3) {
+    color: red;
+}
+
+
+li:nth-child(3) {
+    color: red;
+}
+
+/* par (even) */
+.lista-1 li:nth-child(even) {
+    color: blue;
+}
+
+/* (n)=acrescentando a letra (n) espaçamento das linhas, que não vai ficar selecionadas.  */
+/* li:nth-child(3n) {
+color: red;
+} */
+
+/* impar (odd) */
+.lista-2 li:nth-child(odd) {
+    color: red;
+}
+
+.valor {
+    text-align: right;
+}
+
+tr:nth-child(even) td {
+    background-color: lightblue;
+}
+
+tr:nth-child(odd) td {
+    background-color: lightgoldenrodyellow;
+}
