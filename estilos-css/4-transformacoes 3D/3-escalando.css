@@ -14,11 +14,13 @@ body {
 
 
 .box {
-    background: linear-gradient(90deg, #0fe721 0%, #3f5efb 100%);
+    background: linear-gradient(90deg, #e75e0f 0%, #eeee05 100%);
     width: 200px;
     height: 200px;
     border-radius: 8px;
-    transform: rotateY(30deg);
+    
 }
 
-
+.box:hover {
+    transform: scaleZ(0.5) rotateX(20deg); 
+}

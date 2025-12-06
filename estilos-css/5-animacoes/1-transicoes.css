@@ -1,0 +1,40 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(247, 247, 247);
+
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    perspective: 300px;
+    perspective-origin: top;
+    transform-style: preserve-3d;
+    
+}
+
+
+.box {
+    
+    width: 200px;
+    height: 200px;
+    border-radius: 8px; 
+    position: absolute;
+    background: red;
+
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size:1.4rem; 
+    transition: background 1s, transform 1s ease-in-out;
+    
+
+}
+
+.box:hover {
+    background-color: rgb(0, 255, 0);
+    transform: rotateX(40deg);
+}
